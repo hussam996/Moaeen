@@ -7,21 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A92661EBFC22120121E8EA82 /* Pods_Moaeen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C45F9FDA2B5F1F3B288FC6A /* Pods_Moaeen.framework */; };
+		B283DFD42112414B00C920C6 /* MyLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B283DFD02112414A00C920C6 /* MyLocation.swift */; };
+		B283DFD52112414B00C920C6 /* CheckPhone.swift in Sources */ = {isa = PBXBuildFile; fileRef = B283DFD12112414B00C920C6 /* CheckPhone.swift */; };
+		B283DFD62112414B00C920C6 /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = B283DFD22112414B00C920C6 /* Register.swift */; };
+		B283DFD72112414B00C920C6 /* StartUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B283DFD32112414B00C920C6 /* StartUp.swift */; };
+		B283DFDB2112522600C920C6 /* DesignAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = B283DFDA2112522600C920C6 /* DesignAction.swift */; };
+		B283DFDD2112527C00C920C6 /* FirbaseOp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B283DFDC2112527C00C920C6 /* FirbaseOp.swift */; };
+		B283DFE421129CA100C920C6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B283DFE321129CA000C920C6 /* GoogleService-Info.plist */; };
+		B283DFE62113805300C920C6 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B283DFE52113805300C920C6 /* MapKit.framework */; };
+		B283DFEA2113884500C920C6 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = B283DFE92113884500C920C6 /* Request.swift */; };
+		B283DFEB2113958B00C920C6 /* 29ltbukraregular.otf in Resources */ = {isa = PBXBuildFile; fileRef = B283DFE12112864E00C920C6 /* 29ltbukraregular.otf */; };
+		B283DFEC2113958E00C920C6 /* ge-ss-med_0.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B283DFDF2112864E00C920C6 /* ge-ss-med_0.ttf */; };
+		B283DFED2113959100C920C6 /* GESSTwoLight-Light_0.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B283DFE02112864E00C920C6 /* GESSTwoLight-Light_0.ttf */; };
 		B2D187362112075D00574483 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D187352112075D00574483 /* AppDelegate.swift */; };
-		B2D187382112075D00574483 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D187372112075D00574483 /* ViewController.swift */; };
+		B2D187382112075D00574483 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D187372112075D00574483 /* Home.swift */; };
 		B2D1873B2112075D00574483 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2D187392112075D00574483 /* Main.storyboard */; };
 		B2D1873D2112075E00574483 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2D1873C2112075E00574483 /* Assets.xcassets */; };
 		B2D187402112075E00574483 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2D1873E2112075E00574483 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8C45F9FDA2B5F1F3B288FC6A /* Pods_Moaeen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Moaeen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B283DFD02112414A00C920C6 /* MyLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyLocation.swift; sourceTree = "<group>"; };
+		B283DFD12112414B00C920C6 /* CheckPhone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckPhone.swift; sourceTree = "<group>"; };
+		B283DFD22112414B00C920C6 /* Register.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
+		B283DFD32112414B00C920C6 /* StartUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartUp.swift; sourceTree = "<group>"; };
+		B283DFDA2112522600C920C6 /* DesignAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignAction.swift; sourceTree = "<group>"; };
+		B283DFDC2112527C00C920C6 /* FirbaseOp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirbaseOp.swift; sourceTree = "<group>"; };
+		B283DFDE21125A0800C920C6 /* Moaeen.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Moaeen.entitlements; sourceTree = "<group>"; };
+		B283DFDF2112864E00C920C6 /* ge-ss-med_0.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ge-ss-med_0.ttf"; sourceTree = "<group>"; };
+		B283DFE02112864E00C920C6 /* GESSTwoLight-Light_0.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GESSTwoLight-Light_0.ttf"; sourceTree = "<group>"; };
+		B283DFE12112864E00C920C6 /* 29ltbukraregular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 29ltbukraregular.otf; sourceTree = "<group>"; };
+		B283DFE321129CA000C920C6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B283DFE52113805300C920C6 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		B283DFE92113884500C920C6 /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
 		B2D187322112075D00574483 /* Moaeen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moaeen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2D187352112075D00574483 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B2D187372112075D00574483 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B2D187372112075D00574483 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		B2D1873A2112075D00574483 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B2D1873C2112075E00574483 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2D1873F2112075E00574483 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B2D187412112075E00574483 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6D67B91A1E07544E98996D2 /* Pods-Moaeen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moaeen.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Moaeen/Pods-Moaeen.debug.xcconfig"; sourceTree = "<group>"; };
+		F573C48C655E7AD2E7F574B9 /* Pods-Moaeen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moaeen.release.xcconfig"; path = "Pods/Target Support Files/Pods-Moaeen/Pods-Moaeen.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +58,40 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B283DFE62113805300C920C6 /* MapKit.framework in Frameworks */,
+				A92661EBFC22120121E8EA82 /* Pods_Moaeen.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9E3717F2D6FEF9AC47AE0C48 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D6D67B91A1E07544E98996D2 /* Pods-Moaeen.debug.xcconfig */,
+				F573C48C655E7AD2E7F574B9 /* Pods-Moaeen.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B283DFE22112866800C920C6 /* font */ = {
+			isa = PBXGroup;
+			children = (
+				B283DFE12112864E00C920C6 /* 29ltbukraregular.otf */,
+				B283DFDF2112864E00C920C6 /* ge-ss-med_0.ttf */,
+				B283DFE02112864E00C920C6 /* GESSTwoLight-Light_0.ttf */,
+			);
+			path = font;
+			sourceTree = "<group>";
+		};
 		B2D187292112075D00574483 = {
 			isa = PBXGroup;
 			children = (
 				B2D187342112075D00574483 /* Moaeen */,
 				B2D187332112075D00574483 /* Products */,
+				9E3717F2D6FEF9AC47AE0C48 /* Pods */,
+				CBD15188782E388BEEFB44C9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +106,33 @@
 		B2D187342112075D00574483 /* Moaeen */ = {
 			isa = PBXGroup;
 			children = (
+				B283DFDE21125A0800C920C6 /* Moaeen.entitlements */,
+				B283DFE22112866800C920C6 /* font */,
 				B2D187352112075D00574483 /* AppDelegate.swift */,
-				B2D187372112075D00574483 /* ViewController.swift */,
 				B2D187392112075D00574483 /* Main.storyboard */,
+				B283DFD32112414B00C920C6 /* StartUp.swift */,
+				B283DFD12112414B00C920C6 /* CheckPhone.swift */,
+				B283DFD22112414B00C920C6 /* Register.swift */,
+				B283DFDA2112522600C920C6 /* DesignAction.swift */,
+				B283DFD02112414A00C920C6 /* MyLocation.swift */,
+				B2D187372112075D00574483 /* Home.swift */,
+				B283DFE92113884500C920C6 /* Request.swift */,
+				B283DFDC2112527C00C920C6 /* FirbaseOp.swift */,
 				B2D1873C2112075E00574483 /* Assets.xcassets */,
 				B2D1873E2112075E00574483 /* LaunchScreen.storyboard */,
+				B283DFE321129CA000C920C6 /* GoogleService-Info.plist */,
 				B2D187412112075E00574483 /* Info.plist */,
 			);
 			path = Moaeen;
+			sourceTree = "<group>";
+		};
+		CBD15188782E388BEEFB44C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B283DFE52113805300C920C6 /* MapKit.framework */,
+				8C45F9FDA2B5F1F3B288FC6A /* Pods_Moaeen.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +142,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B2D187442112075E00574483 /* Build configuration list for PBXNativeTarget "Moaeen" */;
 			buildPhases = (
+				236C20ED069839053AD68462 /* [CP] Check Pods Manifest.lock */,
 				B2D1872E2112075D00574483 /* Sources */,
 				B2D1872F2112075D00574483 /* Frameworks */,
 				B2D187302112075D00574483 /* Resources */,
+				F55AF4CFE9DD24D976495381 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -96,6 +169,14 @@
 				TargetAttributes = {
 					B2D187312112075D00574483 = {
 						CreatedOnToolsVersion = 9.4.1;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -123,20 +204,94 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2D187402112075E00574483 /* LaunchScreen.storyboard in Resources */,
+				B283DFE421129CA100C920C6 /* GoogleService-Info.plist in Resources */,
+				B283DFEB2113958B00C920C6 /* 29ltbukraregular.otf in Resources */,
+				B283DFED2113959100C920C6 /* GESSTwoLight-Light_0.ttf in Resources */,
 				B2D1873D2112075E00574483 /* Assets.xcassets in Resources */,
+				B283DFEC2113958E00C920C6 /* ge-ss-med_0.ttf in Resources */,
 				B2D1873B2112075D00574483 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		236C20ED069839053AD68462 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Moaeen-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F55AF4CFE9DD24D976495381 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Moaeen/Pods-Moaeen-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/ImagePicker/ImagePicker.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/MDFInternationalization/MDFInternationalization.framework",
+				"${BUILT_PRODUCTS_DIR}/MaterialComponents/MaterialComponents.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/UITextView+Placeholder/UITextView_Placeholder.framework",
+				"${BUILT_PRODUCTS_DIR}/Validator/Validator.framework",
+				"${BUILT_PRODUCTS_DIR}/XLPagerTabStrip/XLPagerTabStrip.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ImagePicker.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFInternationalization.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MaterialComponents.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UITextView_Placeholder.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Validator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XLPagerTabStrip.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Moaeen/Pods-Moaeen-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B2D1872E2112075D00574483 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2D187382112075D00574483 /* ViewController.swift in Sources */,
+				B283DFDB2112522600C920C6 /* DesignAction.swift in Sources */,
+				B2D187382112075D00574483 /* Home.swift in Sources */,
 				B2D187362112075D00574483 /* AppDelegate.swift in Sources */,
+				B283DFD42112414B00C920C6 /* MyLocation.swift in Sources */,
+				B283DFD72112414B00C920C6 /* StartUp.swift in Sources */,
+				B283DFDD2112527C00C920C6 /* FirbaseOp.swift in Sources */,
+				B283DFEA2113884500C920C6 /* Request.swift in Sources */,
+				B283DFD52112414B00C920C6 /* CheckPhone.swift in Sources */,
+				B283DFD62112414B00C920C6 /* Register.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,16 +433,18 @@
 		};
 		B2D187452112075E00574483 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6D67B91A1E07544E98996D2 /* Pods-Moaeen.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Moaeen/Moaeen.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = R6J5CY2N7Q;
+				DEVELOPMENT_TEAM = FD7KN86W7E;
 				INFOPLIST_FILE = Moaeen/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.malaab.Moaeen;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hack.Moaeen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -296,16 +453,18 @@
 		};
 		B2D187462112075E00574483 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F573C48C655E7AD2E7F574B9 /* Pods-Moaeen.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Moaeen/Moaeen.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = R6J5CY2N7Q;
+				DEVELOPMENT_TEAM = FD7KN86W7E;
 				INFOPLIST_FILE = Moaeen/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.malaab.Moaeen;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hack.Moaeen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
