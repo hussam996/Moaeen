@@ -1,0 +1,6 @@
+framework module Pods_Moaeen {
+  umbrella header "Pods-Moaeen-umbrella.h"
+
+  export *
+  module * { export * }
+}
