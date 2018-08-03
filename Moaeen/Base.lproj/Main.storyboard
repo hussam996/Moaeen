@@ -529,7 +529,7 @@
                                         </constraints>
                                     </view>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g5o-Pg-8uh">
-                                        <rect key="frame" x="23" y="25" width="38" height="31"/>
+                                        <rect key="frame" x="23" y="25" width="53" height="31"/>
                                         <fontDescription key="fontDescription" name="GESSTwoMedium-Medium" family="GE SS Two" pointSize="10"/>
                                         <state key="normal" title="الرئيسية">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -556,7 +556,7 @@
                                     <constraint firstItem="dS7-9O-e2V" firstAttribute="leading" secondItem="feZ-90-KWJ" secondAttribute="leading" id="Wqq-Uh-0YG"/>
                                     <constraint firstItem="sZY-Lr-0er" firstAttribute="centerY" secondItem="feZ-90-KWJ" secondAttribute="centerY" id="hQZ-du-fzU"/>
                                     <constraint firstItem="sZY-Lr-0er" firstAttribute="centerX" secondItem="feZ-90-KWJ" secondAttribute="centerX" id="j6h-yG-6Pa"/>
-                                    <constraint firstItem="sZY-Lr-0er" firstAttribute="leading" secondItem="g5o-Pg-8uh" secondAttribute="trailing" constant="48" id="n3P-NA-AZg"/>
+                                    <constraint firstItem="sZY-Lr-0er" firstAttribute="leading" secondItem="g5o-Pg-8uh" secondAttribute="trailing" constant="33" id="n3P-NA-AZg"/>
                                     <constraint firstItem="sZY-Lr-0er" firstAttribute="centerX" secondItem="dS7-9O-e2V" secondAttribute="centerX" id="nGk-cF-mUk"/>
                                     <constraint firstItem="g5o-Pg-8uh" firstAttribute="centerY" secondItem="feZ-90-KWJ" secondAttribute="centerY" id="nRh-sk-Gg5"/>
                                     <constraint firstAttribute="height" constant="80" id="oVU-xb-zKY"/>
@@ -1293,7 +1293,7 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="dwj-sO-5sx"/>
-        <segue reference="GO2-1r-30m"/>
+        <segue reference="bdf-QU-sU3"/>
         <segue reference="fDg-wu-XRb"/>
         <segue reference="HBz-mU-FRR"/>
         <segue reference="BlB-Gm-dp0"/>
