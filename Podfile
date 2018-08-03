@@ -17,6 +17,7 @@ target 'Moaeen' do
   pod 'ImagePicker'
   pod 'IQKeyboardManagerSwift'
   pod 'UITextView+Placeholder'
+  pod 'Cluster'
   # Pods for Moaeen
 
 end

@@ -22,7 +22,7 @@ class Home: UIViewController {
         } catch let signOutError as NSError {
             print ("Error signing out: %@", signOutError)
         }
-        let vc = self.storyboard?.instantiateViewController(withIdentifier: "CheckPhone") as! StartUp
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "StartUp") as! StartUp
         self.present(vc, animated: false, completion: nil)
         
     }

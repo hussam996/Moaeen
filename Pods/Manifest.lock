@@ -1,4 +1,5 @@
 PODS:
+  - Cluster (2.2.7)
   - Firebase/Auth (5.4.1):
     - Firebase/CoreOnly
     - FirebaseAuth (= 5.0.2)
@@ -66,6 +67,7 @@ PODS:
   - XLPagerTabStrip (8.0.1)
 
 DEPENDENCIES:
+  - Cluster
   - Firebase/Auth
   - Firebase/Core
   - Firebase/Database
@@ -81,6 +83,7 @@ DEPENDENCIES:
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - Cluster
     - Firebase
     - FirebaseAnalytics
     - FirebaseAuth
@@ -103,6 +106,7 @@ SPEC REPOS:
     - XLPagerTabStrip
 
 SPEC CHECKSUMS:
+  Cluster: 77d8c672f3aa3d7fb896c85446fe055e0bed1250
   Firebase: 355bd535bfdacaa82a7fe8d9784115edefd6fc03
   FirebaseAnalytics: b3628aea54c50464c32c393fb2ea032566e7ecc2
   FirebaseAuth: 096e457cdd4274412a66c4a35874787e411f5a03
@@ -124,6 +128,6 @@ SPEC CHECKSUMS:
   Validator: bf211c1d71b3f910d230c09c70e62429d0fef63a
   XLPagerTabStrip: c908b17cbf42fcd2598ee1adfc49bae25444d88a
 
-PODFILE CHECKSUM: c4d15f598804857bb518bad32426cf99375ed05b
+PODFILE CHECKSUM: fae12156f49ebf59a1f9bacc5fa18a47387f90af
 
 COCOAPODS: 1.5.3

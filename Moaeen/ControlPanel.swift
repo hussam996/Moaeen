@@ -11,23 +11,34 @@ import MapKit
 import CoreLocation
 import Cluster
 
-class MyPointAnnotation : MKPointAnnotation {
-    var pinTintColor: UIColor?
-}
 
-class MyLocation: UIViewController, CLLocationManagerDelegate, MKMapViewDelegate , UICollectionViewDelegate , UICollectionViewDataSource {
+
+class ControlPanel: UIViewController, CLLocationManagerDelegate, MKMapViewDelegate , UICollectionViewDelegate , UICollectionViewDataSource {
     
     let names = ["حسام الدين محمد عمر", "خالد الحربي", "ايمن السروري"]
+       let statuses = ["مستلم",
+                       "غير مستلم"
+        ,
+        "غير مستلم"]
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return 3
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell :HajjCollectionViewCell  = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as! HajjCollectionViewCell
+        let cell :VCollectionViewCell  = collectionView.dequeueReusableCell(withReuseIdentifier: "Vcell", for: indexPath) as! VCollectionViewCell
         
         cell.name.text = names[indexPath.row]
+        cell.status.text =  statuses[indexPath.row]
         
-        cell.Contact.addTarget(self, action: #selector(self.BtnAction(_:)), for: .touchUpInside)
+        
+        cell.layer.borderWidth = 0.5
+        cell.layer.borderColor = UIColor.black.cgColor
+        
+        if (indexPath.row == 0 ){
+           cell.startOrder.setTitle("انتهاء الطلب",for: .normal)
+        }
+        
+        cell.startOrder.addTarget(self, action: #selector(self.BtnAction(_:)), for: .touchUpInside)
         
 //        cell.Contact.addTarget(self, action: Selector(("buttonClicked:")), for: UIControlEvents.touchUpInside)
         
@@ -69,36 +80,6 @@ class MyLocation: UIViewController, CLLocationManagerDelegate, MKMapViewDelegate
         manager.startUpdatingLocation()
         self.map.showsUserLocation = true
         
-  
-        var annotation2 = MyPointAnnotation()
-        
-        
-        annotation2.pinTintColor = .blue
-      
-        annotation2.coordinate = CLLocationCoordinate2D(latitude: 21.407236, longitude: 39.8945157)
-       
-        map.addAnnotation(annotation2)
-        
-        
-        var annotation3 = MyPointAnnotation()
-        
-        
-        annotation3.pinTintColor = .blue
-        
-       
-        annotation3.coordinate = CLLocationCoordinate2D(latitude:  21.404669, longitude: 39.894001)
-        
-        map.addAnnotation(annotation3)
-        
-        
-        var annotation4 = MyPointAnnotation()
-        
-        
-        annotation4.pinTintColor = .blue
-       
-        annotation4.coordinate = CLLocationCoordinate2D(latitude:  21.404949, longitude: 39.892520)
-        
-        map.addAnnotation(annotation4)
         
     }
     

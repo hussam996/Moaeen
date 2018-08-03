@@ -20,6 +20,9 @@
 		B283DFEB2113958B00C920C6 /* 29ltbukraregular.otf in Resources */ = {isa = PBXBuildFile; fileRef = B283DFE12112864E00C920C6 /* 29ltbukraregular.otf */; };
 		B283DFEC2113958E00C920C6 /* ge-ss-med_0.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B283DFDF2112864E00C920C6 /* ge-ss-med_0.ttf */; };
 		B283DFED2113959100C920C6 /* GESSTwoLight-Light_0.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B283DFE02112864E00C920C6 /* GESSTwoLight-Light_0.ttf */; };
+		B283DFEF2113D45200C920C6 /* HajjCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B283DFEE2113D45200C920C6 /* HajjCollectionViewCell.swift */; };
+		B283DFF1211413FB00C920C6 /* ControlPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B283DFF0211413FB00C920C6 /* ControlPanel.swift */; };
+		B283DFF32114146100C920C6 /* VCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B283DFF22114146100C920C6 /* VCollectionViewCell.swift */; };
 		B2D187362112075D00574483 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D187352112075D00574483 /* AppDelegate.swift */; };
 		B2D187382112075D00574483 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D187372112075D00574483 /* Home.swift */; };
 		B2D1873B2112075D00574483 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2D187392112075D00574483 /* Main.storyboard */; };
@@ -42,6 +45,9 @@
 		B283DFE321129CA000C920C6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B283DFE52113805300C920C6 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		B283DFE92113884500C920C6 /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		B283DFEE2113D45200C920C6 /* HajjCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HajjCollectionViewCell.swift; sourceTree = "<group>"; };
+		B283DFF0211413FB00C920C6 /* ControlPanel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlPanel.swift; sourceTree = "<group>"; };
+		B283DFF22114146100C920C6 /* VCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCollectionViewCell.swift; sourceTree = "<group>"; };
 		B2D187322112075D00574483 /* Moaeen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moaeen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2D187352112075D00574483 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B2D187372112075D00574483 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
@@ -115,6 +121,7 @@
 				B283DFD22112414B00C920C6 /* Register.swift */,
 				B283DFDA2112522600C920C6 /* DesignAction.swift */,
 				B283DFD02112414A00C920C6 /* MyLocation.swift */,
+				B283DFF0211413FB00C920C6 /* ControlPanel.swift */,
 				B2D187372112075D00574483 /* Home.swift */,
 				B283DFE92113884500C920C6 /* Request.swift */,
 				B283DFDC2112527C00C920C6 /* FirbaseOp.swift */,
@@ -122,6 +129,8 @@
 				B2D1873E2112075E00574483 /* LaunchScreen.storyboard */,
 				B283DFE321129CA000C920C6 /* GoogleService-Info.plist */,
 				B2D187412112075E00574483 /* Info.plist */,
+				B283DFEE2113D45200C920C6 /* HajjCollectionViewCell.swift */,
+				B283DFF22114146100C920C6 /* VCollectionViewCell.swift */,
 			);
 			path = Moaeen;
 			sourceTree = "<group>";
@@ -241,6 +250,7 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Moaeen/Pods-Moaeen-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Cluster/Cluster.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
@@ -257,6 +267,7 @@
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cluster.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
@@ -284,6 +295,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B283DFDB2112522600C920C6 /* DesignAction.swift in Sources */,
+				B283DFF32114146100C920C6 /* VCollectionViewCell.swift in Sources */,
+				B283DFEF2113D45200C920C6 /* HajjCollectionViewCell.swift in Sources */,
 				B2D187382112075D00574483 /* Home.swift in Sources */,
 				B2D187362112075D00574483 /* AppDelegate.swift in Sources */,
 				B283DFD42112414B00C920C6 /* MyLocation.swift in Sources */,
@@ -291,6 +304,7 @@
 				B283DFDD2112527C00C920C6 /* FirbaseOp.swift in Sources */,
 				B283DFEA2113884500C920C6 /* Request.swift in Sources */,
 				B283DFD52112414B00C920C6 /* CheckPhone.swift in Sources */,
+				B283DFF1211413FB00C920C6 /* ControlPanel.swift in Sources */,
 				B283DFD62112414B00C920C6 /* Register.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
